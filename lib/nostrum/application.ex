@@ -9,7 +9,7 @@ defmodule Nostrum.Application do
 
   @doc false
   def start(_type, _args) do
-    Token.check_token!()
+    # Token.check_token!()
     check_executables()
     setup_ets_tables()
 
